@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link href="styles/site.css" rel="stylesheet" />
+    <script src="scripts/site.js"></script>
+    <title>Registration</title>
+</head>
+<body>
+    <h1>Wellcome to register page</h1>
+    <div class="please">Please fill Your details :</div>
+    <hr />
+    <form method="post" action="register.html">
+        <fieldset>
+            <div class="field">
+                <label for="firstName">First Name :</label>
+                <input type="text" id="firstName" required />
+            </div>
+            <div class="field">
+                <label for="lastName">Last Name :</label>
+                <input type="text" id="lastName" required />
+            </div>
+            <div class="field">
+                <label for="password">Password :</label>
+                <input type="password" id="password" onchange="passwordsMatch()" required />
+            </div>
+            <div class="field">
+                <label for="confirm">Confirm Password :</label>
+                <input type="password" id="confirm" onchange="passwordsMatch()" required />
+            </div>
+            <div class="warning" id="passwordsMatch"></div>
+            <div class="field">
+                <label for="gender">Gender :</label>
+                <select>
+                    <option>Male</option>
+                    <option>Female</option>
+                </select>
+            </div>
+            My Religion :
+            <div class="options">
+                <ol>
+                    <li><input type="radio" name="religion" value="jewish">Jewish</li>
+                    <li><input type="radio" name="religion" value="moslem">Moslem</li>
+                    <li><input type="radio" name="religion" value="atheist">Atheist</li>
+                    <li><input type="radio" name="religion" value="christian">Christian</li>
+                </ol>
+            </div>
+            How did You hear about us? :
+            <div class="options">
+                <ul>
+                    <li><input type="checkbox" name="hearAbout" value="friend">Friend</li>
+                    <li><input type="checkbox" name="hearAbout" value="google">Google Search</li>
+                    <li><input type="checkbox" name="hearAbout" value="facebook">Facebook</li>
+                    <li><input type="checkbox" name="hearAbout" value="twitter">Twitter</li>
+                </ul>
+            </div>
+            <div class="important">
+                <input type="checkbox" name="iAm18" required />I Am not under 18
+            </div>
+            <div class="agree">
+                <input type="checkbox" name="agree" required />I agree to all the terms and conditions of the creator
+            </div>
+            <div>
+                <input type="image" src="images/register.gif" />
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>

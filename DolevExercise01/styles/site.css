@@ -1,0 +1,38 @@
+﻿body{
+    background-color: #add8e6;
+}
+
+.field{
+    color: red;
+    font-weight: bold;
+    font-size: large;
+    margin-bottom: 20px;
+}
+
+.important {
+    color: red;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.agree{
+    font-weight: bold;
+}
+
+.options{
+    color: blue;
+    font-size: large;
+}
+
+.warning {
+    color: maroon;
+    font-weight: bold;
+    font-size: medium;
+    font-style: italic;
+    margin-left: 40px;
+}
+
+.please{
+    font-size: 20px;
+    font-weight: bold;
+}
