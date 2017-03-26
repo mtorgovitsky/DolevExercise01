@@ -77,7 +77,7 @@
     <Content Include="images\register.gif" />
     <Content Include="images\there is more.gif" />
     <Content Include="index.html" />
-    <Content Include="register.html" />
+    <Content Include="registered.html" />
     <Content Include="scripts\site.js" />
     <Content Include="styles\site.css" />
     <Content Include="Web.config" />
